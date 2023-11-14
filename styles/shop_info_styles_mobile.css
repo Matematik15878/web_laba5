@@ -1,0 +1,36 @@
+@media screen and (max-width: 1200px) {
+
+  .hunters_photo { /* Стиль фотографії власників */
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    height: 100%; 
+    width: 42vw;
+    z-index: 3;
+  }
+
+  .info_text { /* Текст інформації про магазин */
+    max-width: 58vw;
+    min-height: 80vh;
+    background-color: white;
+    font-family: Timed New Roman;
+    z-index: 3;
+  }
+
+  .info_p { /* Стиль для звичайного тексту */
+    margin-left: 1vw;
+    font-size: 2vh; 
+  }
+
+  .info_text_start { /* Окремий стиль для початку тексту */
+    margin-left: 1vw;
+    font-size: 3vh; 
+  }
+
+  .info_text_ending { /* Окремий стиль для закінчення тексту */
+    margin-left: 1vw;
+    margin-top: 4vw;
+    font-size: 3.2vh;
+  }
+
+}

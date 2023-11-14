@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>"Парабелум" - Головна</title>
+    <script src="./scripts/scripts.js"> </script>
+    <link rel="stylesheet" type="text/css" href="./styles/styles_mobile.css">
+    <link rel="stylesheet" type="text/css" href="./styles/styles_pc.css">
+    <link rel="shortcut icon" href="./images/page_elements/Parabellum_icon.ico" type="image/png">
+  </head>
+  <body>
+    <!-- Шапка сайту -->
+    <div class="website_head"> 
+        <h1 class="parabellum_head"> Si vis pacem, para bellum </h1>
+        <p class="market_name_head"> Інтернет-магазин вогнепальної та холодної зброї "<a href="https://send.monobank.ua/jar/8uisU1VrQv" style="color: white; text-decoration: none;">Парабелум</a>" </p>
+        <div class="x" onclick="unhidBlocks()"> x </div>
+    </div>
+    <!-- Основна частина сайту -->
+    <div class="main">
+        <div class="name1"> 
+            <button class="button_1" onclick="swapBlocks()"> Поміняти місцями "2" та "5" </button>
+            <button class="button_1" onclick="swapBlocks()"> Поміняти місцями "2" та "5" </button>
+            <button class="button_1" onclick="swapBlocks()"> Поміняти місцями "2" та "5" </button>
+            <button class="button_1" onclick="swapBlocks()"> Поміняти місцями "2" та "5" </button>
+        </div>
+        <div class="name2">
+            <div class="name3"> </div>
+            <div class="name4">
+                <div class="name5">
+                    <div class="name7">
+                        <div class="name9">
+                        Введіть число: 
+                        <input type="number" class="input_3">
+                        <button class="button_3" onclick="rollNumber()"> Перевернути число </button>    
+                        </div>
+                        <div class="name9">
+                        Введіть колір рамки (#446cd4, наприклад): 
+                        <input type="text" class="input_4">
+                        <button class="button_4" onclick="changeColor()"> Змінити колір рамок </button>    
+                        </div>
+                        <div class="name9" id="task_50">
+                        Введіть тег html ("p", наприклад):
+                        <input type="text" class="input_5">
+                        Введіть CSS інструкції ("color: green;", наприклад)
+                        <input type="text" class="input_6">
+                        </div>    
+                        <div class="name9" id="task_51">
+                        <button class="button_5" onclick="changeCSS()"> 1 </button>    
+                        <button class="button_6" onclick="removeFromLocalStorage()"> 2 </button>    
+                        </div>                    
+                        <div class="name10">
+                        Введіть радіус кола, описанного навколо п'ятикутника:
+                        <input type="number" class="input_1">
+                        Введіть діагональ п'ятикутника:
+                        <input type="number" class="input_2">
+                        <div id="result"> Результат =  </div>
+                        <button class="button_2" onclick="findSquare()"> Знайти площу правильного п'ятикутника </button>    
+                        </div>                    
+                    </div>
+                    <div class="name8"> </div>
+                </div>
+                <div class="name6">
+                    <button class="button_1" onclick="swapBlocks()"> Поміняти місцями "5" та "2" </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Нижній блок інформації сайту та меню -->
+    <div class="website_foot"> 
+        <p class="contacts_1">
+            Наші контакти: <br> 
+            +38(066)277-68-35 <br>
+            +38(096)525-28-74 <br>
+            +38(073)817-73-32 <br>
+        </p>
+        <ul class="contacts_2">
+            <ol style="padding-left: 0vw;"> <span class="contacts_icons"> Ми у соцмережах: </span> </ol>
+            <li style="margin-left: 1vw;"> <img src="./images/media_icons/Instagram_icon.png" class="contacts_icons"> <a href="https://www.instagram.com/tikkafirearms/" class="contacts_links">Instagram</a> </ol>
+            <li style="margin-left: 1vw;"> <img src="./images/media_icons/YouTube_icon.png" class="contacts_icons"> <a href="https://www.youtube.com/@BrandonHerrera" class="contacts_links">YouTube</a> </ol>
+            <li style="margin-left: 1vw;"> <img src="./images/media_icons/Reddit_icon.png" class="contacts_icons"> <a href="https://www.reddit.com/r/Firearms/" class="contacts_links">Reddit</a> </ol>
+        </ul>
+        <ul class="bottom_menu";>
+            - <a href="index.html" style="color: white;">Головна</a> - <br>
+            <a href="./pages/shop_info.html" style="color: white; text-decoration: none;">Інформація про нас</a> <br>
+            <a href="./pages/delivery_info.html" style="color: white; text-decoration: none;">Доставка і оплата</a> <br>
+            <a href="./pages/licence_info.html" style="color: white; text-decoration: none;">Реєстрація зброї</a> <br>
+        </ul>
+        <p class="bottom_text"> 
+            <span class="bottom_text1">
+            Зброя зрівнює слабких із сильними.<br>
+            Озбройся сьогодні і не помри завтра!<br><br></span>
+            <span class="bottom_text2">Інтернет-магазин "<strong>Парабелум</strong>"<br></span>
+            <span class="bottom_text3">2000-2023</span>
+        </p>
+    </div>
+  </body>
+</html>

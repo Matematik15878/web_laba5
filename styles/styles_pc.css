@@ -1,0 +1,317 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@font-face { /* Lombardina font */
+  font-family: 'Lombardina One Roman';
+  src: url('../fonts/Lombardina/lombardina_one_roman.eot'); 
+  src: url('../fonts/Lombardina/lombardina_one_roman.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/Lombardina/lombardina_one_roman.woff2') format('woff2'), 
+    url('../fonts/Lombardina/lombardina_one_roman.woff') format('woff'), 
+    url('../fonts/Lombardina/lombardina_one_roman.ttf') format('truetype'), 
+    url('../fonts/Lombardina/lombardina_one_roman.svg#lombardina_one_roman') format('svg'); 
+}
+
+@media screen and (min-width: 1200px) {
+
+  .website_head { /* Блок шапки сайту */
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    background-size: cover; 
+    background-position: right;
+    background-image: url('../images/page_elements/head_background_image.jpg'); 
+    z-index: 1;
+  }
+
+  .parabellum_head { /* Стиль для слогану */
+    width: 80vw; 
+    font-size: 4.2vw;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2vh;
+    margin-bottom: -1vh;
+    margin-left: 1vw;
+    letter-spacing: -1px;
+    color: #ffffff; 
+    font-family: 'Lombardina One Roman', sans-serif;
+    z-index: 2;
+  }
+
+  .market_name_head { /* Стиль для назви магазину */
+    width: 80vw; 
+    font-size: 1.4vw;
+    text-align: left;
+    margin-bottom: 0vh;
+    margin-left: 1vw;
+    letter-spacing: 0.2vw;
+    color: #ffffff; 
+    font-family: "Timed New Roman", sans-serif;
+    z-index: 2;
+  }
+
+  .main { /* Загальний стиль блоку інформації */
+    display: flex;
+    min-height: 60vh;
+    flex-direction: row; 
+    position: relative;
+    background-color: white;
+    z-index: 3;
+  }
+
+  .name1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 15vw;
+    background-color: red;
+    z-index: 3;
+  }
+
+  .button_1 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    width: 12vw;
+    height: 8vh;
+    background-color: white;
+    font-weight: 600;
+    font-family: "Timed New Roman", sans-serif;
+  }
+
+  .name2 {
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: column;
+    width: 85vw;
+    min-height: 40vh;
+    z-index: 3;
+  }
+
+  .name3 {
+    flex-grow: 0;
+    width: 85vw;
+    min-height: 10vh;
+    background-color: green;
+    left: 15vw; 
+    z-index: 3;
+  }
+
+  .name4 {
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: row;
+    width: 85vw;
+    min-height: 50vh;
+    left: 20vw; 
+    z-index: 3;
+  }
+
+  .name5 {
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: column;
+    width: 70vw;
+    min-height: 50vh;
+    left: 15vw; 
+    z-index: 3;
+  }
+
+  .name6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    min-height: 50vh;
+    width: 15vw;
+    background-color: red;
+    z-index: 3;
+  }
+
+  .name7 {
+    flex-grow: 1;
+    min-height: 40vh;
+    width: 70vw;
+    background-color: white;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name9 {
+    font-size: 0.8vw;
+    margin-left: 1vw; 
+    position: relative; 
+    width: 100%;
+    top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+  .input_3 {
+    height: 4vh;
+    width: 10vw;
+  }
+
+  .button_3 {
+    position: relative;
+    left: 1vw;
+    cursor: pointer;
+    height: 8vh;
+    width: 10vw;
+  }
+
+  .input_4 {
+    height: 4vh;
+    width: 10vw;
+  }
+
+  .button_4 {
+    position: relative;
+    left: 1vw;
+    cursor: pointer;
+    height: 8vh;
+    width: 10vw;
+  }
+
+  .x {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    border: 2px solid gray;
+    height: 5vh;
+    width: 5vw;
+    top: 7vh;
+    left: 65vw;
+    z-index: 4;
+  }
+
+  #task_50, #task_51 {
+    visibility: hidden;
+  }
+
+  .input_5, .input_6 {
+    height: 4vh;
+    width: 10vw;
+  }
+
+  .button_5, .button_6 {
+    position: relative;
+    left: 1vw;
+    cursor: pointer;
+    height: 5vh;
+    width: 8vw;
+  }
+
+  .name10 {
+    font-size: 0.8vw;
+    margin-top: auto; 
+    margin-bottom: 1vh; 
+    margin-left: 1vw; 
+    position: relative; 
+    width: 100%;
+    bottom: 1vh;
+  }
+
+  .input_1, .input_2 {
+    height: 4vh;
+    width: 10vw;
+    margin-right: 1vw;
+  }
+
+  .button_2 {
+    position: absolute;
+    right: 1vw;
+    cursor: pointer;
+    height: 8vh;
+    bottom: 0;
+    width: 10vw;
+  }
+
+  .name8 {
+    flex-grow: 0;
+    min-height: 10vh;
+    width: 70vw;
+    background-color: green;
+    z-index: 3;
+  }
+
+  .website_foot { /* Стиль блоку нижнього тексту */
+    display: flex;
+    flex-direction: row;
+    color: #ffffff; 
+    min-height: 20vh;
+    background-size: cover; 
+    background-position: left;
+    background-image: url('../images/page_elements/foot_background_image.jpg'); 
+    z-index: 2;
+  }
+
+  .contacts_1 { /* Стиль номерів телефонів знизу */
+    margin-left: 15vw;
+    margin-top: 4vh;
+    width: 12vw;
+    font-size: 1vw;
+    text-align: left;
+  }
+
+  .contacts_2 { /* Стиль для соцмереж */
+    margin-top: 4vh;
+    padding-left: 1vw;
+    width: 13vw;
+    font-size: 1vw;
+    text-align: left;
+  }
+
+  .contacts_links { /* Стиль для посилань */
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .contacts_icons { /* Стиль іконок соцмереж */
+    width: 1.5vh;
+  }
+
+  .bottom_menu { /* Стиль для меню знизу сайту */
+    padding-left: 0vw;
+    margin-left: 0vw;
+    margin-top: 3.5vh;
+    width: 16vw;
+    font-size: 1.2vw;
+    text-align: center;
+  }
+
+  .bottom_text { /* Стиль гасла знизу сайту */
+    width: 42vw;
+    text-align: right;
+  }
+
+  .bottom_text1 { /* Стиль гасла знизу сайту */
+    font-size: 1.2vw; 
+    font-weight: 400; 
+    letter-spacing: -1px;
+  }
+
+  .bottom_text2 { /* Стиль гасла знизу сайту */
+    font-family: Georgia;
+    font-size: 1.8vw; 
+    letter-spacing: 4px;
+  }
+
+  .bottom_text3 { /* Стиль гасла знизу сайту */
+    font-family: Georgia;
+    font-size: 0.9vw; 
+    letter-spacing: 4px;
+  }
+
+}

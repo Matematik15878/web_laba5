@@ -1,0 +1,319 @@
+body {
+	margin: 0;
+	padding: 0;
+  overflow-x: hidden;
+}
+
+@font-face { /* Lombardina font */
+  font-family: 'Lombardina One Roman';
+  src: url('../fonts/Lombardina/lombardina_one_roman.eot'); 
+  src: url('../fonts/Lombardina/lombardina_one_roman.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/Lombardina/lombardina_one_roman.woff2') format('woff2'), 
+    url('../fonts/Lombardina/lombardina_one_roman.woff') format('woff'), 
+    url('../fonts/Lombardina/lombardina_one_roman.ttf') format('truetype'), 
+    url('../fonts/Lombardina/lombardina_one_roman.svg#lombardina_one_roman') format('svg'); 
+}
+
+@media screen and (max-width: 1200px) {
+
+  .website_head { /* Блок шапки сайту */
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    background-size: cover; 
+    background-position: right;
+    background-color: black; 
+    z-index: 1;
+  }
+
+  .parabellum_head { /* Стиль для слогану */
+    width: 80vw; 
+    min-height: 6vh;
+    font-size: 4.2vh;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2vh;
+    margin-bottom: -1vh;
+    margin-left: 1vw;
+    letter-spacing: -1px;
+    color: #ffffff; 
+    font-family: 'Lombardina One Roman', sans-serif;
+    z-index: 2;
+  }
+
+  .market_name_head { /* Стиль для назви магазину */
+    width: 100vw; 
+    font-size: 1.2vh;
+    text-align: left;
+    margin-bottom: 0vh;
+    margin-left: 1vw;
+    letter-spacing: 0.2vw;
+    color: #ffffff; 
+    font-family: "Timed New Roman", sans-serif;
+    z-index: 2;
+  }
+
+  .main { /* Загальний стиль блоку інформації */
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column; 
+    position: relative;
+    background-color: white;
+    z-index: 3;
+  }
+
+  .name1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100vw;
+    min-height: 10vh;
+    background-color: red;
+    z-index: 3;
+  }
+
+  .button_1 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+    border-radius: 5px;
+    width: 22vw;
+    height: 8vh;
+    background-color: white;
+    font-weight: 600;
+    font-size: 1vh;
+    font-family: "Timed New Roman", sans-serif;
+  }
+
+  .name2 {
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: column;
+    width: 100vw;
+    min-height: 80vh;
+    z-index: 3;
+  }
+
+  .name3 {
+    flex-grow: 0;
+    width: 100vw;
+    min-height: 8vh;
+    background-color: green;
+    left: 15vw; 
+    z-index: 3;
+  }
+
+  .name4 {
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: row;
+    width: 100vw;
+    min-height: 72vh;
+    left: 20vw; 
+    z-index: 3;
+  }
+
+  .name5 {
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: column;
+    width: 75vw;
+    min-height: 72vh;
+    left: 15vw; 
+    z-index: 3;
+  }
+
+  .name6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    min-height: 72vh;
+    width: 25vw;
+    background-color: red;
+    z-index: 3;
+  }
+
+  .name7 {
+    flex-grow: 1;
+    min-height: 64vh;
+    width: 75vw;
+    background-color: white;
+    z-index: 3;
+  }
+
+  .name9 {
+    font-size: 1.5vh;
+    margin-left: 1vw; 
+    position: relative; 
+    width: 100%;
+    top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+  .input_3 {
+    border: 0.2vh solid black;
+    font-size: 1.5vh;
+    height: 4vh;
+    width: 25vw;
+  }
+
+  .button_3 {
+    font-size: 1.2vh;
+    position: relative;
+    left: 1vw;
+    cursor: pointer;
+    height: 6vh;
+    width: 25vw;
+  }
+
+  .input_4 {
+    border: 0.2vh solid black;
+    font-size: 1.5vh;
+    margin-top: 2vh;
+    height: 4vh;
+    width: 30vw;
+  }
+
+  .button_4 {
+    font-size: 1.2vh;
+    position: relative;
+    left: 1vw;
+    cursor: pointer;
+    height: 6vh;
+    width: 25vw;
+  }
+
+  .x {
+    font-size: 3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    border: 0.4vh solid gray;
+    height: 4vh;
+    width: 15vw;
+    top: 2vh;
+    right: 5vw;
+    z-index: 4;
+  }
+
+  #task_50, #task_51 {
+    visibility: hidden;
+  }
+
+  .input_5, .input_6 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 0.2vh solid black;
+    font-size: 1.5vh;
+    height: 4vh;
+    width: 90%;
+  }
+
+  .button_5, .button_6 {
+    font-size: 1.6vh;
+    position: relative;
+    left: 1vw;
+    cursor: pointer;
+    height: 4vh;
+    width: 45%;
+  }
+
+  .name10 {
+    font-size: 1.5vh;
+    margin-right: 1vh; 
+    bottom: 10vh; 
+    margin-left: 1vw; 
+    position: absolute; 
+    width: 70vw;
+  }
+
+  .input_1, .input_2 {
+    border: 0.2vh solid black;
+    font-size: 1.5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 4vh;
+    width: 100%;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .button_2 {
+    font-size: 1.5vh;
+    margin-top: 1vh;
+    position: relative;
+    cursor: pointer;
+    height: 4vh;
+    width: 100%;
+  }
+
+  .name8 {
+    flex-grow: 0;
+    min-height: 8vh;
+    width: 75vw;
+    background-color: green;
+    z-index: 3;
+  }
+
+  .website_foot { /* Стиль блоку нижнього тексту */
+    display: flex;
+    flex-direction: row;
+    color: #ffffff; 
+    min-height: 10vh;
+    background-size: cover; 
+    background-position: left;
+    background-color: black;
+    z-index: 2;
+  }  
+
+  .contacts_1 { /* Стиль номерів телефонів знизу */
+    margin-left: 1vw;
+    margin-top: 1.5vh;
+    width: 26vw;
+    font-size: 3vw;
+    text-align: left;
+  }
+
+  .contacts_2 { /* Стиль для соцмереж */
+    position: absolute;
+    margin-top: 1.5vh;
+    padding-left: 73vw;
+    width: 26vw;
+    font-size: 3vw;
+    text-align: left;
+  }
+
+  .contacts_links { /* Стиль для посилань */
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .contacts_icons { /* Стиль іконок соцмереж */
+    width: 1.5vw;
+  }
+
+  .bottom_menu { /* Стиль для меню знизу сайту */
+    position: absolute;
+    align-items: center;
+    padding-left: 0vw;
+    margin-left: 37vw;
+    margin-top: 1.5vh;
+    width: 26vw;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .bottom_text { /* Стиль гасла знизу сайту */
+    width: 34vw;
+    visibility: hidden;
+  }
+
+}
