@@ -147,6 +147,7 @@ body {
   }
 
   .name9 {
+    min-height: 8vh;
     font-size: 1.5vh;
     margin-left: 1vw; 
     position: relative; 
@@ -159,7 +160,7 @@ body {
     border: 0.2vh solid black;
     font-size: 1.5vh;
     height: 4vh;
-    width: 25vw;
+    width: 20vw;
   }
 
   .button_3 {
@@ -168,7 +169,7 @@ body {
     left: 1vw;
     cursor: pointer;
     height: 6vh;
-    width: 25vw;
+    width: 20vw;
   }
 
   .input_4 {
@@ -218,6 +219,7 @@ body {
   }
 
   .button_5, .button_6 {
+    border: 0.2vh solid black;
     font-size: 1.6vh;
     position: relative;
     left: 1vw;
@@ -227,11 +229,10 @@ body {
   }
 
   .name10 {
+    min-height: 10vh;
     font-size: 1.5vh;
     margin-right: 1vh; 
-    bottom: 10vh; 
     margin-left: 1vw; 
-    position: absolute; 
     width: 70vw;
   }
 
